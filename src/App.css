@@ -67,6 +67,50 @@ p {
 }
 
 
+.company-demo {
+  text-align:center;
+}
+
+.demo-button {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  color: black;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.use-case-button {
+  background-color: #0688FA;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+  padding: 15px 83px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+
+
+
 
 
 
