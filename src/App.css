@@ -35,9 +35,40 @@ body {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
 }
 
+.culture-description {
+  color: gray;
+}
 
+.bullet-points p {
+  color: gray;
+}
+
+.join-button {
+  background-color: dodgerblue;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 19px 91px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 17px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.join-pitch {
+  color:black;
+}
+
+.join-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 
 

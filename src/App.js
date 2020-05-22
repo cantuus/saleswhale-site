@@ -44,6 +44,38 @@ function App() {
           </div>
         </header>
 
+        <section className="company-culture">
+          <h2 className="headline">Our Culture</h2>
+          <p className="culture-description">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process</p>
+          <div className="bullet-points">
+            <h3>
+              Building for the future
+            </h3>
+            <p>
+              We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users.
+            </p>
+            <h3>
+              Promoting trust & transparency
+            </h3>
+            <p>
+              We remain completely open, honest, and transparent with everyone. This has allowed us to build strong relationships with each other.
+            </p>
+            <h3>
+              Achieving our very best
+            </h3>
+            <p>
+              We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up. YOUSORO!!!
+            </p>
+
+            <p className="join-pitch">
+              If you are excited by our vision of the future, and want ot solve meaningful problems, talk with us!
+            </p>
+
+            <button className="join-button">Join Aquors</button>
+          </div>
+
+        </section>
+
 
 
 
