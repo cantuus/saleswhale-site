@@ -3,6 +3,10 @@ margin: 5px;
 
 }
 
+main {
+  margin: 20px;
+}
+
 body {
   margin:0;
   padding: 0;
@@ -19,14 +23,26 @@ body {
   padding: 20px;
 }
 
-main {
-  margin: 20px;
-}
-
 .top-banner img {
   width: 100%;
   height: 245px;
 }
+
+.headline {
+  font-weight:bolder;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+
 
 /* 768px and above; tablets */
 @media screen and (min-width: 768px) {
