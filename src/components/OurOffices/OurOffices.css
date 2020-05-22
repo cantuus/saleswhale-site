@@ -1,3 +1,21 @@
 .office {
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    margin: 50px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 3 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.office h3 {
+    font-size: 26px;
+    margin: 20px;
+}
+
+.office p {
+    font-size: 16px;
 }

@@ -85,7 +85,9 @@ function App() {
 
     ``  <section className="company-investor">
           <h2 className="headline">Our Investors</h2>
-          <Investor />
+          <div className="investor-list">
+            <Investor />
+          </div>
         </section>
 
         <section className="company-demo">
