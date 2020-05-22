@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css'
 import logo from './images/logo.png'
 import banner from './images/banner.png'
 import Progress from './components/OurProgress/OurProgress'
 import Culture from './components/OurCulture/OurCulture'
 import Office from './components/OurOffices/OurOffices'
+import Investor from './components/OurInvestors/OurInvestors'
 
 function App() {
   return (
@@ -61,19 +63,25 @@ function App() {
         </section>
 
         <section className="company-history">
+          <h2 className="headline">Our Progress</h2>
           <Progress />
         </section>
 
         <section className="company-office">
-
-        </section>
-
-        <section>
+          <h2 className="headline">Our Offices</h2>
           <Office />
         </section>
 
+    ``  <section className="company-investor">
+          <h2 className="headline">Our Investors</h2>
+          <Investor />
+        </section>
 
-
+        <section>
+          <h2 className="headline">See the future</h2>
+          <button className="demo-button">Get a Demo</button>
+          <button className="use-case-button">Read use cases</button>
+        </section>
 
       </main>
 
