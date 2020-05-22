@@ -1,9 +1,5 @@
-.App {
-margin: 5px;
 
-}
-
-main {
+.top-half {
   margin: 20px;
 }
 
@@ -28,7 +24,7 @@ body {
   height: 245px;
 }
 
-.headline {
+.main-headline {
   font-weight:bolder;
   font-family: 'Oswald', sans-serif;
 }
@@ -57,7 +53,7 @@ p {
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-  margin: 4px 17px;
+  margin: 4px 37px;
   cursor: pointer;
   transition-duration: 0.4s;
 }

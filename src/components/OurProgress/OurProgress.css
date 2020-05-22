@@ -1,0 +1,42 @@
+.headline {
+    font-weight:bolder;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.milestone {
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.vertical-line {
+    right: 254px;
+    width: 3px;
+    height: 790px;
+    background-color: #0688FA;
+    position: absolute;
+    z-index: 0;
+}
+
+.milestone-year h3 {
+    font-size: 16px;
+    color: #0688FA;
+
+}
+
+.milestone-year {
+    margin-top: 8px;
+}
+
+.milestone-description {
+    font-size: 16px;
+}
+
+.milestone-mail {
+    margin: 10px;
+}
+
+.progress-list {
+    background-color: #EFF8FF;
+    padding: 30px;
+}

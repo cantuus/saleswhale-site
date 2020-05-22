@@ -30,45 +30,50 @@ function App() {
       </nav>
 
       <main>
-        <header>
-          <div className="top-banner">
-            <img src={banner} alt="fancy-banner"></img>
-            <h1 className="headline">A future where AI and humans works hand in hand</h1>
-            <p>At Saleswhale, we believe that the future of work is Collaborative intelligence - where machines and AI help humans fulfill their highest
-            potential by automating drudgery and producing for more effective results.
+        <div className="top-half">
+          <header>
+            <div className="top-banner">
+              <img src={banner} alt="fancy-banner"></img>
+              <h1 className="main-headline">A future where AI and humans works hand in hand</h1>
+              <p>At Saleswhale, we believe that the future of work is Collaborative intelligence - where machines and AI help humans fulfill their highest
+              potential by automating drudgery and producing for more effective results.
             </p>
-            <p>
-              AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative,
-              high impact work that creates value and inspires.
-              The result? Happier and more productive teams doing meaningful work.
+              <p>
+                AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative,
+                high impact work that creates value and inspires.
+                The result? Happier and more productive teams doing meaningful work.
             </p>
-            <p>
-              Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need
-              in marketing and sales teams all across the world.
+              <p>
+                Our mission is to put an AI assistant in every company that could greatly benefit from it, and we're starting off strong addressing this need
+                in marketing and sales teams all across the world.
             </p>
-            <p>
-              The future is where AI and humans work hand in hand, and we're here to help businesses benefit from that.
+              <p>
+                The future is where AI and humans work hand in hand, and we're here to help businesses benefit from that.
             </p>
-          </div>
-        </header>
+            </div>
+          </header>
 
-        <section className="company-culture">
-          <h2 className="headline">Our Culture</h2>
-          <p className="culture-description">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process</p>
+          <section className="company-culture">
+            <h2 className="headline">Our Culture</h2>
+            <p className="culture-description">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process</p>
 
-          <Culture />
+            <Culture />
 
-          <p className="join-pitch">
-            If you are excited by our vision of the future, and want ot solve meaningful problems, talk with us!
+            <p className="join-pitch">
+              If you are excited by our vision of the future, and want ot solve meaningful problems, talk with us!
             </p>
 
-          <button className="join-button">Join Aquors</button>
+            <button className="join-button">Join Aquors</button>
 
-        </section>
+          </section>
+        </div>
 
         <section className="company-history">
           <h2 className="headline">Our Progress</h2>
-          <Progress />
+          <div className="vertical-line"></div>
+          <div className="progress-list">
+            <Progress />
+          </div>
         </section>
 
         <section className="company-office">
@@ -142,7 +147,6 @@ function App() {
             </div>
             <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
             <img src={footerwaves} alt='footer-waves'></img>
-
           </div>
 
 
