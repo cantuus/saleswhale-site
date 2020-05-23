@@ -41,3 +41,16 @@
     background-color: #EFF8FF;
     padding: 30px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .progress-list {
+        padding-left: 120px;
+    }
+
+    .vertical-line {
+        height: 606px;
+        right: 569px;
+    }
+  
+  }
