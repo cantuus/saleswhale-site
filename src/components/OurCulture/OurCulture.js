@@ -1,4 +1,5 @@
 import React from 'react'
+import './OurCulture.css'
 import CompanyValues from './CompanyValues'
 import you from '../../images/you.png'
 

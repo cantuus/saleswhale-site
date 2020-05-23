@@ -1,0 +1,34 @@
+
+    .company-culture-container p {
+        color: gray;
+    }
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .company-culture-container {
+      display: flex;
+    }
+
+    .values {
+        margin: 27px;
+    }
+
+    .company-culture  {
+        font-size: 16px;
+    }
+
+    .headline {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 32px;
+    }
+
+    .culture-description, .join-pitch {
+        margin-left: 32px;
+        margin-right: 50px;
+        text-align: center;
+    }
+  
+  }
