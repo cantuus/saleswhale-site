@@ -108,7 +108,9 @@ function App() {
 
         <footer>
           <div className="top-footer">
-            <img src={logo} alt="logo"></img>
+            <div className="footer-logo-wrapper">
+              <img className="footer-logo" src={logo} alt="logo"></img>
+            </div>
             <div className="top-footer-half">
               <div className="footer-header">
                 <h3>Why Saleswhale</h3>
