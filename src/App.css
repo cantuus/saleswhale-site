@@ -20,7 +20,7 @@
 
 .main-headline {
   font-weight:bolder;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -143,7 +143,7 @@ p {
 .top-footer li {
   font-size: 14px;
   list-style: none;
-
+  margin-bottom: 16px;
 }
 
 .top-footer a {
@@ -155,12 +155,24 @@ p {
   display: flex;
 }
 
+.footer-header {
+  margin-right: 16px;
+}
+
+.footer-header ul {
+  padding-inline-start: 0px;;
+}
+
 .footer-header h3 {
   font-size: 16px;
 }
 
 .footer-header p {
   font-size: 14px;
+}
+
+.contact-info {
+  margin-left: 46px;
 }
 
 .social-container img {
@@ -174,6 +186,10 @@ p {
 .footer-social {
   background-color: #F4F4F4;
 
+}
+
+.top-footer {
+  margin: 20px;
 }
 
 .footer-social p {
@@ -195,14 +211,9 @@ p {
   margin: 3px;
 }
 
-
-
- 
-
-
-
-
-
+.wave-image {
+  width: 100%;
+}
 
 
 

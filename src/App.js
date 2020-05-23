@@ -107,8 +107,8 @@ function App() {
         </section>
 
         <footer>
-          <img src={logo} alt="logo"></img>
           <div className="top-footer">
+            <img src={logo} alt="logo"></img>
             <div className="top-footer-half">
               <div className="footer-header">
                 <h3>Why Saleswhale</h3>
@@ -142,13 +142,19 @@ function App() {
                   <li><a href="#">Help Centre</a></li>
                 </ul>
               </div>
-              <div className="footer-header">
+              <div className="footer-header contact-info">
                 <h3>Contact</h3>
-                <p>hello@saleswhale.com</p>
+                <ul>
+                  <li>hello@saleswhale.com</li>
+                </ul>
                 <h3>US Office</h3>
-                <p>1701 Rhode Island Ave NW Washington, DC 20036</p>
+                <ul>
+                  <li>1701 Rhode Island Ave NW Washington, DC 20036</li>
+                </ul>
                 <h3>Singapore Office</h3>
-                <p>155B Telok Ayer Street</p>
+                <ul>
+                  <li>155B Telok Ayer Street</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -166,7 +172,7 @@ function App() {
               </div>
             </div>
             <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
-            <img src={footerwaves} alt='footer-waves'></img>
+            <img className="wave-image" src={footerwaves} alt='footer-waves'></img>
           </div>
 
 
