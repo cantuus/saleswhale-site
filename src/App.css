@@ -251,6 +251,27 @@ p {
     display: flex;
   }
 
+  .demo-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    width: auto;
+    padding: 100px;
+  }
+
+  .demo-container:after {
+    transform: skewY(0deg);
+  }
+
+  .demo-button {
+    margin-right: 20px;
+    padding: 14px 51px;
+  }
+
+  .use-case-button {
+    padding: 15px 38px;
+  }
+
 
 }
 

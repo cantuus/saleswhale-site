@@ -104,8 +104,8 @@ function App() {
 
       <section className="company-demo">
         <div className="demo-container">
-          <div className="demo-inner-container">
-            <h2 className="headline">See the future</h2>
+          <h2 className="headline">See the future</h2>
+          <div className="demo-button-container">
             <button className="demo-button">Get a Demo</button>
             <button className="use-case-button">Read use cases</button>
           </div>
