@@ -62,9 +62,9 @@ function App() {
             <p className="join-pitch">
               If you are excited by our vision of the future, and want ot solve meaningful problems, talk with us!
             </p>
-
-            <button className="join-button">Join Aquors</button>
-
+            <div className="button-container">
+              <button className="join-button">Join Aquors</button>
+            </div>
           </section>
         </div>
 
@@ -86,16 +86,20 @@ function App() {
         </section>
 
     ``  <section className="company-investor">
-          <h2 className="headline">Our Investors</h2>
-          <div className="investor-list">
-            <Investor />
+          <div className="investor-inner-container">
+            <h2 className="headline">Our Investors</h2>
+            <div className="investor-list">
+              <Investor />
+            </div>
           </div>
         </section>
 
         <section className="company-demo">
-          <h2 className="headline">See the future</h2>
-          <button className="demo-button">Get a Demo</button>
-          <button className="use-case-button">Read use cases</button>
+          <div className="demo-inner-container">
+            <h2 className="headline">See the future</h2>
+            <button className="demo-button">Get a Demo</button>
+            <button className="use-case-button">Read use cases</button>
+          </div>
         </section>
 
         <footer>

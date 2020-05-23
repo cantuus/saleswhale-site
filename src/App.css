@@ -3,12 +3,6 @@
   margin: 20px;
 }
 
-body {
-  margin:0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 .nav-links {
   display:none;
 }
@@ -42,18 +36,22 @@ p {
   color: gray;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
 .join-button {
   background-color: dodgerblue;
   font-weight: bold;
-  text-align: center;
   border: none;
   border-radius: 5px;
   color: white;
   padding: 19px 91px;
-  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
   text-decoration: none;
   font-size: 15px;
-  margin: 4px 37px;
   cursor: pointer;
   transition-duration: 0.4s;
 }

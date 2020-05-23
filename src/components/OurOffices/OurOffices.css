@@ -26,10 +26,6 @@
     transform: skew(0deg, 9deg) translate(-2px);
 }
 
-.company-office {
-
-}
-
 .inner-container {
     transform: skew(0deg, -9deg);
 }
