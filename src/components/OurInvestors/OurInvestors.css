@@ -38,3 +38,18 @@
     transform-origin: bottom right;
     transform: skewY(5deg);
   }
+
+  @media screen and (min-width: 768px) {
+
+    .investor-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .investor-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  }

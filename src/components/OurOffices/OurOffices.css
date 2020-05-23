@@ -53,6 +53,7 @@
 
     .office {
         padding: 38px;
+        flex: 1;
     }
   
   }
