@@ -79,7 +79,9 @@ function App() {
         <section className="company-office">
           <h2 className="headline">Our Offices</h2>
           <div className="office-list">
-            <Office />
+            <div className="inner-container">
+              <Office />
+            </div>
           </div>
         </section>
 

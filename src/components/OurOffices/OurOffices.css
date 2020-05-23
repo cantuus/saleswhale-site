@@ -1,5 +1,6 @@
 .office {
     text-align: center;
+    background: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
     /* margin-bottom: 1rem; */
@@ -18,4 +19,17 @@
 
 .office p {
     font-size: 16px;
+}
+
+.office-list {
+    background: #FFF5F5;
+    transform: skew(0deg, 9deg) translate(-2px);
+}
+
+.company-office {
+
+}
+
+.inner-container {
+    transform: skew(0deg, -9deg);
 }
