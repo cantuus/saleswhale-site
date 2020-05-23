@@ -72,7 +72,8 @@ p {
   box-sizing: border-box;
   padding: 30px;
   color: #fff;
-  margin-bottom: 200px;
+  margin-top: 121px;
+  margin-bottom: 100px;
 }
 
 .demo-container:after {
@@ -86,12 +87,13 @@ p {
       right: 0;
       bottom: 0;
       left: 0;
-      transform-origin: top left;
-      transform: skewY(4deg);
+      transform-origin: bottom right;
+      transform: skewY(9deg);
 }
 
 .demo-container h2 {
   color:white;
+  font-size: 35px;
 }
 
 .company-demo {
@@ -110,6 +112,7 @@ p {
   display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
+  margin-bottom: 26px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
