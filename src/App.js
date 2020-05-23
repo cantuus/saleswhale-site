@@ -85,7 +85,7 @@ function App() {
           </div>
         </section>
 
-    ``  <section className="company-investor">
+        <section className="company-investor">
           <div className="investor-inner-container">
             <h2 className="headline">Our Investors</h2>
             <div className="investor-list">
