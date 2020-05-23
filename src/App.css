@@ -96,7 +96,7 @@ p {
   font-size: 35px;
 }
 
-.company-demo {
+.company-demo , .social-container {
   text-align: center;
 }
 
@@ -120,7 +120,7 @@ p {
 }
 
 .use-case-button {
-  background-color: #0688FA;
+  background-color: #329DFA;
   border: 2px solid white;
   border-radius: 5px;
   font-weight: bolder;
@@ -135,6 +135,69 @@ p {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
+.top-footer h3 {
+  font-size: 16px;
+}
+
+.top-footer li {
+  font-size: 14px;
+  list-style: none;
+
+}
+
+.top-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-footer-half , .bottom-footer-half {
+  display: flex;
+}
+
+.footer-header h3 {
+  font-size: 16px;
+}
+
+.footer-header p {
+  font-size: 14px;
+}
+
+.social-container img {
+  margin: 10px;
+}
+
+.social-icons {
+  padding-top: 25px;
+}
+
+.footer-social {
+  background-color: #F4F4F4;
+
+}
+
+.footer-social p {
+  text-align:center;
+  font-size: 14px;
+}
+
+.privacy-terms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.privacy-terms a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin: 3px;
+}
+
+
+
+ 
 
 
 

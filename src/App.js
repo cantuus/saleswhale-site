@@ -109,55 +109,61 @@ function App() {
         <footer>
           <img src={logo} alt="logo"></img>
           <div className="top-footer">
-            <div className="footer-header">
-              <h3>Why Saleswhale</h3>
-              <ul>
-                <li><a href="#">Collaborative Intelligence</a></li>
-                <li><a href="#">AI Assistant Capabilities</a></li>
-                <li><a href="#">Customer Stories</a></li>
-                <li><a href="#">User Case - Technology</a></li>
-                <li><a href="#">User Case - Education</a></li>
-                <li><a href="#">User Case - Events</a></li>
-              </ul>
+            <div className="top-footer-half">
+              <div className="footer-header">
+                <h3>Why Saleswhale</h3>
+                <ul>
+                  <li><a href="#">Collaborative Intelligence</a></li>
+                  <li><a href="#">AI Assistant Capabilities</a></li>
+                  <li><a href="#">Customer Stories</a></li>
+                  <li><a href="#">User Case - Technology</a></li>
+                  <li><a href="#">User Case - Education</a></li>
+                  <li><a href="#">User Case - Events</a></li>
+                </ul>
+              </div>
+              <div className="footer-header">
+                <h3>Product</h3>
+                <ul>
+                  <li><a href="#">AI Conversations</a></li>
+                  <li><a href="#">Lead Enrichment</a></li>
+                  <li><a href="#">Deal Intelligence</a></li>
+                  <li><a href="#">Workflow Integration</a></li>
+                </ul>
+              </div>
             </div>
-            <div className="footer-header">
-              <h3>Product</h3>
-              <ul>
-                <li><a href="#">AI Conversations</a></li>
-                <li><a href="#">Lead Enrichment</a></li>
-                <li><a href="#">Deal Intelligence</a></li>
-                <li><a href="#">Workflow Integration</a></li>
-              </ul>
-            </div>
-            <div className="footer-header">
-              <h3>Company</h3>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Help Centre</a></li>
-              </ul>
-            </div>
-            <div className="footer-header">
-              <h3>Contact</h3>
-              <p>hello@saleswhale.com</p>
-              <h4>US Office</h4>
-              <p>1701 Rhode Island Ave NW Washington, DC 20036</p>
-              <h4>Singapore Office</h4>
-              <p>155B Telok Ayer Street</p>
+            <div className="bottom-footer-half">
+              <div className="footer-header">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Help Centre</a></li>
+                </ul>
+              </div>
+              <div className="footer-header">
+                <h3>Contact</h3>
+                <p>hello@saleswhale.com</p>
+                <h3>US Office</h3>
+                <p>1701 Rhode Island Ave NW Washington, DC 20036</p>
+                <h3>Singapore Office</h3>
+                <p>155B Telok Ayer Street</p>
+              </div>
             </div>
           </div>
 
           <div className="footer-social">
             <div className="social-container">
-              <img src={facebooklogo} alt="facebook-icon"></img>
-              <img src={twitterlogo} alt="twitter-icon"></img>
-              <img src={linkedinlogo} alt="linkedin-icon"></img>
-            </div>
-            <div className="privacy-terms">
-              <a className="privacy-link" href="#">Privacy</a>
-              <a className="terms-link" href="#">Terms</a>
+              <div className="social-icons">
+                <img src={facebooklogo} alt="facebook-icon"></img>
+                <img src={twitterlogo} alt="twitter-icon"></img>
+                <img src={linkedinlogo} alt="linkedin-icon"></img>
+              </div>
+              <div className="privacy-terms">
+                <a className="privacy-link" href="#">Privacy</a>
+                <a className="terms-link" href="#">Terms</a>
+              </div>
             </div>
             <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
             <img src={footerwaves} alt='footer-waves'></img>
