@@ -237,6 +237,11 @@ p {
     margin: 66px;
   }
 
+  .main-headline-container {
+    flex: 1;
+    margin-right: 68px;
+  }
+
   .main-headline {
     font-size: 32px;
   }
@@ -249,7 +254,9 @@ p {
   }
 
   .mission-description {
-    margin-left: 89px;
+    flex: 1;
+    padding-right: 158ox;
+    padding-left: 28px;
   }
 
   .mission-description p {
@@ -281,12 +288,16 @@ p {
     padding: 15px 38px;
   }
 
+  .footer-logo-wrapper {
+    flex: 1
+  }
+
   .top-footer .footer-logo {
     height: 20px;
   }
 
   .footer-list {
-    margin-left: 88px
+    flex: 2;
   }
 
   .footer-header {
