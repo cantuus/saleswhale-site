@@ -80,22 +80,33 @@ function App() {
 
       <section className="company-history">
         <h2 className="headline">Our Progress</h2>
-        <div className="vertical-line"></div>
         <div className="progress-list">
-          <Progress />
+          <div className="progress-list-left-right">
+            <div className="vertical-line"></div>
+            <div className="progress-list-top-bottom">
+              <Progress />
+            </div>
+            
+          </div>
         </div>
       </section>
 
       <section className="company-office">
         <h2 className="headline">Our Offices</h2>
-        <div className="office-list">
-          <Office />
+        <div className="office-container">
+          <div className="white-slanted-bg-offices"></div>
+          <div className="office-list">
+            <Office />
+          </div>
         </div>
       </section>
 
       <section className="company-investor">
+        <div className="yellow-circle circle-bg"></div>
+        <div className="blue-circle circle-bg"></div>
+        <div className="white-slanted-bg"></div>
         <div className="investor-inner-container">
-          <h2 className="headline">Our Investors</h2>
+          <h2 className="headline investor-headline">Our Investors</h2>
           <div className="investor-list">
             <Investor />
           </div>
@@ -110,8 +121,6 @@ function App() {
             <button className="use-case-button">Read use cases</button>
           </div>
         </div>
-
-
       </section>
 
       <footer>

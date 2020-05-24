@@ -11,10 +11,10 @@
 
 .vertical-line {
     position: absolute;
-    width: 0px;
-    height: 844px;
-    right: 211px;
-    border: 2px solid #0688FA;
+    width: 5px;
+    height: 100%;
+    left: 102px;
+    background-color: #0688FA;
     z-index: 0;
 }
 
@@ -39,18 +39,21 @@
 
 .progress-list {
     background-color: #EFF8FF;
-    padding: 30px;
+    position: relative;
 }
 
+.progress-list-left-right {
+    position: relative;
+    padding: 0 30px;
+}
+
+.progress-list-top-bottom {
+    padding: 30px 0;
+}
+
+/* iPad */
 @media screen and (min-width: 768px) {
-
-    .progress-list {
-        padding-left: 120px;
+    .progress-list-left-right {
+        margin-left: 120px;
     }
-
-    .vertical-line {
-        height: 606px;
-        right: 569px;
-    }
-  
-  }
+}

@@ -9,7 +9,7 @@
 @media screen and (min-width: 768px) {
 
     .company-culture-container {
-      display: flex;
+        display: flex;
     }
 
     .values {
@@ -32,3 +32,8 @@
     }
   
   }
+
+/*TODO: fix margin for investor cards..possibly padding 
+    -move flex grow stuff to mobile instead of ipad
+    FIX THE CIRCLES
+ */
