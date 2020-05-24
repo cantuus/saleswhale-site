@@ -95,7 +95,7 @@ p {
   font-size: 35px;
 }
 
-.company-demo , .social-container {
+.company-demo , .social-icons, .privacy-terms {
   text-align: center;
 }
 
@@ -180,6 +180,15 @@ p {
 
 .social-container img {
   margin: 10px;
+}
+
+.social-container {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 30px;
 }
 
 .social-icons {
@@ -292,6 +301,19 @@ p {
   .footer-logo {
     padding: 15px;
   }
+
+  .social-container {
+    flex-direction: row-reverse;
+  }
+
+  .privacy-terms {
+    flex-direction: unset;
+  }
+
+  .social-icons {
+    padding-top: 0px;
+  }
+
 
 }
 

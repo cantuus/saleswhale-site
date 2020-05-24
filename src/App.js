@@ -179,12 +179,16 @@ function App() {
               <img src={twitterlogo} alt="twitter-icon"></img>
               <img src={linkedinlogo} alt="linkedin-icon"></img>
             </div>
+            <div className="footer-container">
             <div className="privacy-terms">
               <a className="privacy-link" href="#">Privacy</a>
               <a className="terms-link" href="#">Terms</a>
             </div>
+            <div className="copyright-statement">
+              <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
+            </div>
+            </div>
           </div>
-          <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
           <img className="wave-image" src={footerwaves} alt='footer-waves'></img>
         </div>
 
