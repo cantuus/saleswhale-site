@@ -116,55 +116,58 @@ function App() {
 
       <footer>
         <div className="top-footer">
+
           <div className="footer-logo-wrapper">
             <img className="footer-logo" src={logo} alt="logo"></img>
           </div>
-          <div className="top-footer-half">
-            <div className="footer-header">
-              <h3>Why Saleswhale</h3>
-              <ul>
-                <li><a href="#">Collaborative Intelligence</a></li>
-                <li><a href="#">AI Assistant Capabilities</a></li>
-                <li><a href="#">Customer Stories</a></li>
-                <li><a href="#">User Case - Technology</a></li>
-                <li><a href="#">User Case - Education</a></li>
-                <li><a href="#">User Case - Events</a></li>
-              </ul>
+          <div className="footer-list">
+            <div className="top-footer-half">
+              <div className="footer-header">
+                <h3>Why Saleswhale</h3>
+                <ul>
+                  <li><a href="#">Collaborative Intelligence</a></li>
+                  <li><a href="#">AI Assistant Capabilities</a></li>
+                  <li><a href="#">Customer Stories</a></li>
+                  <li><a href="#">User Case - Technology</a></li>
+                  <li><a href="#">User Case - Education</a></li>
+                  <li><a href="#">User Case - Events</a></li>
+                </ul>
+              </div>
+              <div className="footer-header">
+                <h3>Product</h3>
+                <ul>
+                  <li><a href="#">AI Conversations</a></li>
+                  <li><a href="#">Lead Enrichment</a></li>
+                  <li><a href="#">Deal Intelligence</a></li>
+                  <li><a href="#">Workflow Integration</a></li>
+                </ul>
+              </div>
             </div>
-            <div className="footer-header">
-              <h3>Product</h3>
-              <ul>
-                <li><a href="#">AI Conversations</a></li>
-                <li><a href="#">Lead Enrichment</a></li>
-                <li><a href="#">Deal Intelligence</a></li>
-                <li><a href="#">Workflow Integration</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="bottom-footer-half">
-            <div className="footer-header">
-              <h3>Company</h3>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Help Centre</a></li>
-              </ul>
-            </div>
-            <div className="footer-header contact-info">
-              <h3>Contact</h3>
-              <ul>
-                <li>hello@saleswhale.com</li>
-              </ul>
-              <h3>US Office</h3>
-              <ul>
-                <li>1701 Rhode Island Ave NW Washington, DC 20036</li>
-              </ul>
-              <h3>Singapore Office</h3>
-              <ul>
-                <li>155B Telok Ayer Street</li>
-              </ul>
+            <div className="bottom-footer-half">
+              <div className="footer-header">
+                <h3>Company</h3>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Help Centre</a></li>
+                </ul>
+              </div>
+              <div className="footer-header contact-info">
+                <h3>Contact</h3>
+                <ul>
+                  <li>hello@saleswhale.com</li>
+                </ul>
+                <h3>US Office</h3>
+                <ul>
+                  <li>1701 Rhode Island Ave NW Washington, DC 20036</li>
+                </ul>
+                <h3>Singapore Office</h3>
+                <ul>
+                  <li>155B Telok Ayer Street Singapore, 068611</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

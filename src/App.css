@@ -247,7 +247,7 @@ p {
     font-size: 16px;
   }
 
-  .company-mission {
+  .company-mission, .top-footer {
     display: flex;
   }
 
@@ -272,6 +272,26 @@ p {
     padding: 15px 38px;
   }
 
+  .top-footer .footer-logo {
+    height: 20px;
+  }
+
+  .footer-list {
+    margin-left: 88px
+  }
+
+  .footer-header {
+    flex: 1;
+    margin-right: 52px;
+  }
+
+  .contact-info {
+    margin-left:auto;
+  }
+
+  .footer-logo {
+    padding: 15px;
+  }
 
 }
 
