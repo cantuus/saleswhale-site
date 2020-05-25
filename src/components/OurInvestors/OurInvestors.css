@@ -6,8 +6,8 @@
 
 .blue-circle {
     background-color: #64B4FA;
-    right: -16%;
-    top: 3%;
+    right: -20%;
+    top: 5%;
 }
 
 .circle-bg {
@@ -41,7 +41,7 @@
 .investor-headline {
     background-color: #FFF5F5;
     margin-top: 0;
-    padding-top: 26px;
+    padding-top: 3px;
 }
 
 .investor-list {
@@ -51,8 +51,9 @@
 .investor-card {
     background-color:white;
     padding: 41px 2px;
-    margin: 13px;
     margin-bottom: 45px;
+    margin-left: 18px;
+    margin-right: 18px;
     border-radius: 5px;
     z-index: 3;
     position: relative;

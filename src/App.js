@@ -86,18 +86,16 @@ function App() {
             <div className="progress-list-top-bottom">
               <Progress />
             </div>
-            
+
           </div>
         </div>
       </section>
 
       <section className="company-office">
         <h2 className="headline">Our Offices</h2>
-        <div className="office-container">
-          <div className="white-slanted-bg-offices"></div>
-          <div className="office-list">
-            <Office />
-          </div>
+        <div className="white-slanted-bg-offices"></div>
+        <div className="office-list">
+          <Office />
         </div>
       </section>
 
@@ -189,13 +187,13 @@ function App() {
               <img src={linkedinlogo} alt="linkedin-icon"></img>
             </div>
             <div className="footer-container">
-            <div className="privacy-terms">
-              <a className="privacy-link" href="#">Privacy</a>
-              <a className="terms-link" href="#">Terms</a>
-            </div>
-            <div className="copyright-statement">
-              <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
-            </div>
+              <div className="privacy-terms">
+                <a className="privacy-link" href="#">Privacy</a>
+                <a className="terms-link" href="#">Terms</a>
+              </div>
+              <div className="copyright-statement">
+                <p> © 2020 Saleswhale, Inc. All rights reserved.</p>
+              </div>
             </div>
           </div>
           <img className="wave-image" src={footerwaves} alt='footer-waves'></img>
