@@ -59,3 +59,26 @@
         margin-left: 120px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .vertical-line {
+        left: 118px;
+    }
+    
+    .milestone-mail {
+        margin: 10px 25px;
+    }
+
+    .progress-list {
+        margin: 0rem 21rem;
+    }
+
+    .progress-list-left-right {
+        margin-left: 67px;
+    }
+
+
+
+
+
+  }

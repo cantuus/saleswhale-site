@@ -33,7 +33,12 @@
   
   }
 
-/*TODO: fix margin for investor cards..possibly padding 
-    -move flex grow stuff to mobile instead of ipad
-    FIX THE CIRCLES
- */
+
+ /* 1440px and above; desktops */
+@media screen and (min-width: 1440px) {
+  
+    .join-button {
+        padding: 19px 60px;
+    }
+
+  }
