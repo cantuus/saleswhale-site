@@ -83,7 +83,15 @@
  */
 
  @media screen and (min-width: 1440px) {
- 
+     .office {
+        padding: 4rem 1rem;
+        margin: 7px 25px;
+     }
+     
+    .office-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
   
   }
 

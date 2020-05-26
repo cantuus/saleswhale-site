@@ -297,7 +297,7 @@ p {
   }
 
   .top-footer .footer-logo {
-    height: 20px;
+    height: 32px;
   }
 
   .footer-list {
@@ -353,6 +353,62 @@ p {
     height: 43%;
     position: relative;
     z-index: 5;
+  }
+
+  .demo-container {
+    margin: 30px 55px;
+  }
+
+  .demo-button, .use-case-button {
+    font-size: 16px;
+  }
+
+  .demo-button {
+    padding: 20px 75px;
+  }
+
+  .use-case-button {
+    padding: 20px 65px;
+  }
+  
+  .headline {
+    margin-bottom: 3%;
+  }
+
+  .top-footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .top-footer-half, .bottom-footer-half {
+    flex: 1;
+  }
+
+  .footer-list {
+    display: flex;
+  }
+
+  .footer-logo {
+    height: 32px;
+    margin-top: 0px;
+    margin-right: 155px;
+    margin-left: 61px;
+  }
+
+
+
+  .social-container {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .social-icons img {
+    width: 25%;
+    height: 30%;
+  }
+
+  .social-icons {
+    display: flex;
   }
 
 }

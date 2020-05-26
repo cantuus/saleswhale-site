@@ -109,4 +109,35 @@
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .investor-card {
+        min-height: 168px;
+    }
+    
+    .left-column {
+        margin-left: 144px;
+    }
 
+    .right-column {
+        margin-right: 144px;
+    }
+
+    .yellow-circle {
+        top: 16%;
+    left: 12%;
+    }
+
+    .blue-circle {
+        right: 3%;
+        top: 7%;
+    }
+
+    .circle-bg {
+        height: 356px;
+        width: 356px;
+    }
+
+
+
+
+}

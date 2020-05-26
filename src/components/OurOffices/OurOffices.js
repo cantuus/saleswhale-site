@@ -21,12 +21,23 @@ export default function OurOffices(props) {
         }
     ]
 
-    return officeStore.map(office => {
+    return officeStore.map((office, index) => {
 
-        return (<OfficeCard location={office.location} 
-            address={office.address} 
-            state={office.state}
-            zip={office.zip}
-            img={sinon} />);
+        if (index % 2 === 0) {
+            return (<OfficeCard location={office.location}
+                address={office.address}
+                state={office.state}
+                zip={office.zip}
+                img={sinon}
+                className="left-column" />)
+        }
+        else {
+            return (<OfficeCard location={office.location}
+                address={office.address}
+                state={office.state}
+                zip={office.zip}
+                img={sinon}
+                className="right-column" />)
+        }
     });
 }
