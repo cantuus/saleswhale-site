@@ -12,14 +12,8 @@
     -ms-box-shadow: 3 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
-.outer-office-container {
     margin-bottom: 5rem;
-}
-
-.inner-office-container {
-    margin: -2rem;
+    /* margin: -2rem; */
 }
 
 .office h3 {
@@ -70,14 +64,17 @@
 @media screen and (min-width: 768px) {
 
     .office-list {
-        flex-direction: unset;
+        flex-direction: row;
     }
 
-    /* .office {
-        padding: 38px;
-        flex: 1;
-    } */
+    .outer-office-container {
+        margin-bottom: 0rem;
 
+    }
+
+    .inner-office-container {
+        margin: 0rem;
+    }
 }
 
  /*TODO: fix padding on offices card with sinon on it 
