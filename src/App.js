@@ -22,8 +22,8 @@ function App() {
           <div className="nav-links-container">
             <div className="nav-links-left">
               <ul className="nav-links">
-                <li><a href="#">Why Saleswhale</a></li>
-                <li><a href="#">Product</a></li>
+                <li><a href="#">Why Saleswhale?</a></li>
+                <li className="product-link"><a href="#">Product</a></li>
                 <li><a href="#">Company</a></li>
               </ul>
             </div>

@@ -123,9 +123,12 @@ p {
   margin: 4px 2px;
   margin-bottom: 26px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.demo-button:hover {
+  box-shadow: none;
 }
 
 .use-case-button {
@@ -141,8 +144,13 @@ p {
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+}
+
+.use-case-button:hover {
+  background-color: white;
+  color: #068CF7;
+  border: 2px solid #068CF7;
 }
 
 .top-footer .footer-logo {
@@ -360,13 +368,13 @@ p {
     z-index: 4;
   }
 
-  .header {
+  header {
     margin-top: 10%;
   }
 
   .nav-links-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 1;
   }
 
@@ -375,11 +383,22 @@ p {
     list-style: none;
     font-family: Source Sans Pro;
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
   }
 
   .nav-links a {
     text-decoration: none;
     color: black;
+  }
+
+  .nav-links-left {
+    margin-left: 15%;
+    margin-top: 1%;
+  }
+
+  .product-link {
+    margin: 0% 67%;
   }
 
 
@@ -410,7 +429,7 @@ p {
     background-color: white; 
     border: none;
     color: #068CF7;
-    padding: 16px 32px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -432,12 +451,17 @@ p {
     font-size: 47px;
   }
 
+  .headline {
+    font-size: 50px;
+  }
+
   .main-headline-inner-container {
     margin-top: 2%;
   }
 
   .company-mission {
     margin-top: 3%;
+    margin-bottom: 20%;
   }
   
   .logo img {
