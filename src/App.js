@@ -19,15 +19,21 @@ function App() {
           <div className="logo">
             <img src={logo} alt="logo"></img>
           </div>
-          <ul className="nav-links">
-            <li><a href="#">Why Saleswhale</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Company</a></li>
-          </ul>
-          <ul className="nav-links">
-            <li><a href="#">Log in</a></li>
-            <li><a href="#">Get a Demo</a></li>
-          </ul>
+          <div className="nav-links-container">
+            <div className="nav-links-left">
+              <ul className="nav-links">
+                <li><a href="#">Why Saleswhale</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Company</a></li>
+              </ul>
+            </div>
+            <div className="nav-links-right">
+              <ul className="nav-links">
+                <li><button className="login-button">Log in</button></li>
+                <li><button className="nav-demo-button">Get a Demo</button></li>
+              </ul>
+            </div>
+          </div>
         </nav>
 
         <header>
@@ -35,7 +41,11 @@ function App() {
             <img src={banner} alt="fancy-banner"></img>
             <div className="company-mission">
               <div className="main-headline-container">
-                <h1 className="main-headline">A future where AI and humans works hand in hand</h1>
+                <div className='main-headline-inner-container'>
+                  <h1 className="main-headline">A future where AI</h1>
+                  <h1 className="main-headline"> and humans works </h1>
+                  <h1 className="main-headline">hand in hand</h1>
+                </div>
               </div>
               <div className="mission-description">
                 <p>At Saleswhale, we believe that the future of work is Collaborative intelligence - where machines and AI help humans fulfill their highest

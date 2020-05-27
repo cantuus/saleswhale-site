@@ -15,11 +15,17 @@
 .top-banner img {
   width: 100%;
   height: 245px;
+  border-radius: 5px;
 }
 
 .main-headline {
   font-weight:bolder;
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.main-headline-inner-container {
+  margin-top: 2%;
 }
 
 section {
@@ -246,6 +252,10 @@ p {
     margin-right: 68px;
   }
 
+  .main-headline-inner-container {
+    margin-top: 5%;
+  }
+
   .main-headline {
     font-size: 32px;
   }
@@ -340,20 +350,115 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
-    padding: 10px 100px;
+    height: 8%;
+    padding: 1% 4%;
     box-sizing: border-box;
     transition: .5s;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    z-index: 4;
+  }
+
+  .header {
+    margin-top: 10%;
+  }
+
+  .nav-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+  .nav-demo-button {
+    background-color: #068CF7; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .nav-demo-button:hover {
+    background-color: white;
+    color: #068CF7;
+    border: 2px solid #068CF7;
+  }
+
+  .login-button {
+    background-color: white; 
+    border: none;
+    color: #068CF7;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #068CF7;
+  }
+
+  .login-button:hover {
+    background-color: #068CF7;
+    color: white;
+  }
+
+  .main-headline {
+    font-size: 47px;
+  }
+
+  .main-headline-inner-container {
+    margin-top: 2%;
+  }
+
+  .company-mission {
+    margin-top: 3%;
   }
   
   .logo img {
-    width: 100%;
-    height: 43%;
+    width: 95%;
+    height: 65%;
     position: relative;
     z-index: 5;
+    margin: 4%;
   }
+
+  .top-banner img {
+    height: 100%;
+  }
+
+  .mission-description p {
+    font-size: 19px;
+  }
+
+
+
+  /* see the future section */
 
   .demo-container {
     margin: 30px 55px;

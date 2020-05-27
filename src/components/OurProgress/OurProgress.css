@@ -60,21 +60,23 @@
     }
 }
 
+
+/*Desktop */
 @media screen and (min-width: 1440px) {
     .vertical-line {
-        left: 118px;
+        left: 16%;
     }
     
     .milestone-mail {
-        margin: 10px 25px;
+        margin: 1% 6%;
     }
 
     .progress-list {
-        margin: 0rem 21rem;
+        margin: 0% 9%;
     }
 
     .progress-list-left-right {
-        margin-left: 67px;
+        margin-left: 24%;
     }
 
 
