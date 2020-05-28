@@ -64,19 +64,18 @@
 /*Desktop */
 @media screen and (min-width: 1440px) {
     .vertical-line {
-        left: 16%;
+        left: 112px;
     }
-    
+   
     .milestone-mail {
-        margin: 1% 6%;
-    }
+        margin: 0px 20px;
+    } 
 
     .progress-list {
-        margin: 0% 9%;
-    }
-
-    .progress-list-left-right {
-        margin-left: 24%;
+        display: flex;
+        justify-content: center;
+        margin-right: 90px;
+        margin-left: 90px;
     }
 
 
