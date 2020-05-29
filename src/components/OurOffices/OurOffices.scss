@@ -13,17 +13,16 @@
     -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     margin-bottom: 5rem;
-    /* margin: -2rem; */
-}
 
-.office h3 {
-    font-size: 26px;
-    margin: 5px 0px;
-}
+    h3 {
+        font-size: 26px;
+        margin: 5px 0px;
+    }
 
-.office p {
-    font-size: 16px;
-    margin: 0;
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
 }
 
 .office-container {
@@ -61,6 +60,8 @@
     transform: skewY(8deg);
 }
 
+
+/* 768px and above; tablets */
 @media screen and (min-width: 768px) {
 
     .office-list {
@@ -77,11 +78,8 @@
     }
 }
 
- /*TODO: fix padding on offices card with sinon on it 
-    -move flex grow stuff to mobile instead of ipad
-    
- */
 
+/* 1440px and above; desktops */
  @media screen and (min-width: 1440px) {
      .office {
         padding: 4rem 1rem;

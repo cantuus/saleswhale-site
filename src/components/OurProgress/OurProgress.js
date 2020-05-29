@@ -1,7 +1,7 @@
 import React from 'react'
 import Milestone from './Milestone'
 import mail from '../../images/mail.png'
-import './OurProgress.css'
+import './OurProgress.scss'
 
 export default function OurProgress(props) {
 

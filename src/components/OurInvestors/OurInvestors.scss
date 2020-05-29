@@ -70,10 +70,10 @@
     height: auto;
     background:  #FFF5F5;
     box-sizing: border-box;
-    /* padding: 30px;
-    margin-bottom: 100px; */
 }
 
+
+/* 768px and above; tablets */
 @media screen and (min-width: 768px) {
 
     .investor-list {
@@ -109,6 +109,8 @@
     }
 }
 
+
+/* 1440px and above; desktops */
 @media screen and (min-width: 1440px) {
     .investor-card {
         min-height: 168px;
@@ -136,8 +138,5 @@
         height: 356px;
         width: 356px;
     }
-
-
-
 
 }

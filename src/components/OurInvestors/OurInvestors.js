@@ -1,6 +1,6 @@
 import React from 'react'
 import InvestorCard from './InvestorCard'
-import './OurInvestors.css'
+import './OurInvestors.scss'
 import combinator from '../../images/investor 1.png'
 import monkHill from '../../images/investor 2.png'
 import strive from '../../images/investor 3.png'

@@ -6,7 +6,6 @@
     .culture-description {
         color: gray;
     }
-
     
     .button-container {
         display: flex;
@@ -38,7 +37,7 @@
 
 
 
-
+/* 768px and above; tablets */
 @media screen and (min-width: 768px) {
 
     .company-culture-container {
@@ -63,15 +62,15 @@
         margin-right: 50px;
         text-align: center;
     }
-  
-  }
+
+}
 
 
  /* 1440px and above; desktops */
 @media screen and (min-width: 1440px) {
-  
+
     .join-button {
         padding: 19px 60px;
     }
 
-  }
+}

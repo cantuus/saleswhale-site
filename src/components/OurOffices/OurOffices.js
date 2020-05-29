@@ -1,7 +1,7 @@
 import React from 'react'
 import OfficeCard from './OfficeCard'
 import sinon from '../../images/sinon.png'
-import './OurOffices.css'
+import './OurOffices.scss'
 
 
 export default function OurOffices(props) {
