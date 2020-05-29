@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "name": "Saleswhale",
+    "routes": [
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "^/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": "^/manifest.json",
+            "dest": "/manifest.json"
+        },
+        {
+            "src": ".*",
+            "dest": "/index.html"
+        }
+    ]
+}
