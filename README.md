@@ -1,4 +1,6 @@
-Saleswhale Mockup Site
+### Saleswhale Mockup Site 
+
+Built on HTML | CSS | React.js
 
 ### `npm start`
 
