@@ -24,7 +24,7 @@ export default function OurOffices(props) {
     return officeStore.map((office, index) => {
 
         if (index % 2 === 0) {
-            return (<OfficeCard location={office.location}
+            return (<OfficeCard key={index} location={office.location}
                 address={office.address}
                 state={office.state}
                 zip={office.zip}
@@ -32,7 +32,7 @@ export default function OurOffices(props) {
                 className="left-column" />)
         }
         else {
-            return (<OfficeCard location={office.location}
+            return (<OfficeCard key={index} location={office.location}
                 address={office.address}
                 state={office.state}
                 zip={office.zip}

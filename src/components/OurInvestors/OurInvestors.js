@@ -28,9 +28,9 @@ export default function OurInvestors(props) {
     return investorStore.map((investor, index) => {
         if (index % 2 === 0) // if even, this is the left column
         {
-            return (<InvestorCard img={investor.investor} className="left-column" />);
+            return (<InvestorCard key={index} img={investor.investor} className="left-column" />);
         } else {
-            return (<InvestorCard img={investor.investor} className="right-column" />);
+            return (<InvestorCard key={index} img={investor.investor} className="right-column" />);
         }
     });
 }

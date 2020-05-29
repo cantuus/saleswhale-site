@@ -28,8 +28,8 @@ export default function OurProgress(props) {
         }
     ]
 
-    return progressStore.map(milestone => {
+    return progressStore.map((milestone, index) => {
 
-        return (<Milestone year={milestone.year} description={milestone.description} img={mail} />);
+        return (<Milestone key={index} year={milestone.year} description={milestone.description} img={mail} />);
     });
 }

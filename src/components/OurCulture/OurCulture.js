@@ -21,8 +21,8 @@ export default function OurProgress(props) {
         }
     ]
 
-    return cultureStore.map(value => {
+    return cultureStore.map((value, index) => {
 
-        return (<CompanyValues header={value.header} description={value.description} img={you} />);
+        return (<CompanyValues key={index} header={value.header} description={value.description} img={you} />);
     });
 }
